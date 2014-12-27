@@ -1,0 +1,9 @@
+  An Ecommerce Platform..
+  
+  Admin Panel is provided too.
+  
+  Demo : http://23.94.98.143/sagnik/ecommerce/
+  
+  Go to the app/init.php and admin/app/init.php and change your database configuration
+  
+  Run the project via http://localhost/ecommerce
