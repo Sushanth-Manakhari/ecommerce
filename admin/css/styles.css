@@ -1,0 +1,165 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+form.login {
+    border: 1px solid red;
+}
+
+form.login input {
+    height: 14px;
+    width: 140px;
+    background: #F5F5F5;
+    border-radius: 2px;
+}
+
+/* payment page */
+
+
+
+/* Modal */
+
+#register_modal{
+
+  position:fixed;
+    top: 30%;
+    left: 50%;
+    width:30em;
+    min-height:20em;
+    max-height: 35em;
+    margin-top: -4em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    z-index: 1;
+    overflow-y: auto;
+    display:none;
+    overflow-x: hidden;
+    
+}
+
+#edit_product_modal{
+
+    position:fixed;
+    top: 20%;
+    left: 40%;
+    width:50em;
+    min-height:20em;
+    max-height: 40em;
+    margin-top: -4em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: white;
+    z-index: 1;
+    overflow-y: auto;
+   display: none;
+    overflow-x: hidden;
+    
+}
+
+#close {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+  text-decoration: none;
+}
+
+#close:hover {
+  color: #000000;
+  text-decoration: none;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  cursor: pointer;
+}
+
+/* slider  */
+
+h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
+}
+.carousel{
+    margin-top: 20px;
+}
+.bs-example{
+  margin: 20px;
+}
+
+
+/*main product image slider and container*/
+
+
+#carousel {
+    margin-top: 20px;
+    overflow:none;
+    
+}
+
+.carousel .carousel-inner{
+  height:450px;
+  overflow:none;
+  background-color: #eee;
+}
+
+.carousel .item img{
+  height: 450px;
+}
+
+#thumbcarousel .carousel-inner{
+  height:110px;
+  overflow:none;
+  background-color: #eee;
+}
+
+.item .thumb {
+  width: 25%;
+  cursor: pointer;
+  float: left;
+}
+.item .thumb img {
+  width: 100%;
+  margin: 2px;
+}
+.item img {
+  width: 100%; 
+  height: 100%; 
+}
+
+
+/*glypho icons*/
+
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+/* input group addons*/
+
+.input-group[class*="col-"] {
+    padding-right: 15px;
+    padding-left: 15px;
+}
