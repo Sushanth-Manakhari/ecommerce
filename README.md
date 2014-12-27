@@ -1,4 +1,0 @@
-ecommerce
-=========
-
-An ecommerce platform
